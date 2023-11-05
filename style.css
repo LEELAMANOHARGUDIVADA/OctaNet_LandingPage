@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(29, 28, 28);
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+header .left{
+    height: 80px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.left img{
+    height: 35px;
+    color: #fff;
+    margin-right: 50px;
+    align-self: center;
+}
+.left ul{
+    display: flex;
+}
+.left ul li{
+    padding: 0 18px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.left ul li:hover{
+    color: #bbb;
+}
+header .right{
+    height: 80px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.right .search-container{
+    border: 1px solid #bbb;
+    border-radius: 2px;
+    padding: 10px;
+    display: flex;
+    transition: all 0.3s ease;
+}
+.search-container:hover{
+    border: 2px solid #fff;
+}
+.search-container input{
+    background-color: transparent;
+    width: 100px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.search-container .icons i{
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+.right .icons{
+    margin-left: 30px;
+}
+.icons i{
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+.icons i:hover{
+    background-color: gray;
+    border-radius: 50%;
+}
+#banner img{
+    width: 100%;
+    height: 700px;
+}
+#featured-box{
+    margin-top: 80px;
+}
+#featured-box h1,
+#poster-box h2{
+    text-align: center;
+    font-size: 40px;
+}
+#featured-box h2
+{
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(46, 45, 45);
+}
+#featured-box .featured-content{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-content .img-box{
+    padding: 20px;
+}
+.featured-content .img-box img{
+    width: 125px;
+}
+.banner-box{
+    margin-top: 80px;
+}
+
+#footwear{
+    margin-top: 80px;
+}
+#footwear h2{
+    text-align: center;
+    font-size: 40px;
+}
+#footwear h3{
+    margin-top: 17px;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(46, 45, 45);
+}
+#footwear .footwear-content{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.content-box img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+}
+.content-box .content{
+    user-select: none;
+}
+.content-box h4{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.content span{
+    font-size: 15px;
+}
+.content button{
+    outline: 0;
+    border: 0;
+    margin-top: 15px;
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+#banner-2 img{
+    margin-top: 80px;
+    width: 100%;
+}
+#poster-box{
+    margin-top: 100px;
+}
+#poster-box .posters{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.posters .poster{
+    margin-top: 20px;
+}
+
+
+.posters .poster img{
+    width: 600px;
+    height: 600px;
+}
+#footer{
+    margin-top: 80px;
+}
+footer{
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+}
+footer .row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.row .col h3{
+    font-size: 20px;
+}
+.col ul {
+    margin-top: 15px;
+}
+.col ul li{
+    margin-bottom: 8px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.col .social-icons{
+    margin-top: 15px;
+}
+.social-icons i{
+    font-size: 20px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.col .explore{
+    margin-top: 35px;
+}
+.explore .boxes{
+    margin-top: 20px;
+    display: flex;
+}
+.boxes .box{
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+.box:hover{
+    border: 1px solid #fff;
+}
+.box h4{
+    font-size: 15px;
+    font-weight: 400;
+}
+#logo{
+    width: 25px;
+}
+#payment{
+    width: 300px;
+}
+#flag{
+    width: 50px;
+}
+footer .row2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.row2 .col2 .box{
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+.col2 .box h4{
+    padding: 10px;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    header .left{
+        width: 70%;
+    }
+    .left img{
+        height: 35px;
+        color: #fff;
+        margin-left: 100px;
+    }
+    .left ul li{
+        padding: 0 12px;
+    }
+    .banner-box img{
+        width: 100%;
+    }
+    .content-box img{
+        width: 200px;
+        height: 450px;
+        object-fit: contain;
+    }
+    .posters .poster img{
+        width: 450px;
+        height: 450px;
+    }
+    
+}
+@media screen and (max-width: 1150px) {
+    header{
+        justify-content: space-around;
+    }
+    
+    header .left ul{
+        display: none;
+    }
+    header .left{
+        justify-content: flex-start;
+    }
+    .banner-box img{
+        width: 100%;
+    }
+    .content-box img{
+        width: 180px;
+        height: 450px;
+        object-fit: contain;
+    }
+    .posters .poster img{
+        width: 400px;
+        height: 400px;
+    }
+    
+}
+@media screen and (max-width: 1000px) {
+    header{
+        justify-content: space-between;
+    }
+    header .left ul{
+        display: none;
+    }
+    header .left{
+        justify-content: flex-start;
+    }
+    .right{
+        margin-right: 100px;
+    }
+    .right .icons{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 50px;
+    }
+    .banner-box img{
+        width: 100%;
+    }
+    .content-box img{
+        width: 180px;
+        height: 450px;
+        object-fit: contain;
+    }
+    .posters .poster img{
+        width: 400px;
+        height: 400px;
+    }
+    footer{
+        background-color: #222;
+        color: #fff;
+        padding: 30px;
+    }
+    .row .col h3{
+        font-size: 20px;
+    }
+    .social-icons i{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .box h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #logo{
+        width: 25px;
+    }
+    #payment{
+        width: 200px;
+    }
+    #flag{
+        width: 50px;
+    }
+    .col2 .box h4{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 830px) {
+    header{
+        justify-content: space-between;
+    }
+    header .left ul{
+        display: none;
+    }
+    header .left{
+        justify-content: flex-start;
+    }
+    .right{
+        margin-right: 100px;
+    }
+    .right .icons{
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 20px;
+    }
+    .banner-box img{
+        width: 100%;
+    }
+    .content-box img{
+        width: 150px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .posters{
+     flex-direction: column;
+    }
+    .posters .poster img{
+        width: 400px;
+        height: 400px;
+    }
+    footer{
+        background-color: #222;
+        color: #fff;
+        padding: 30px;
+    }
+    .row .col h3{
+        font-size: 20px;
+    }
+    .social-icons i{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .box h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #logo{
+        width: 25px;
+    }
+    #payment{
+        width: 200px;
+    }
+    #flag{
+        width: 50px;
+    }
+    .row2 .col2 .box{
+        width: 150px;
+        padding: 10px;
+        border: 1px solid #bbb;
+        border-radius: 15px;
+        text-align: center;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+    } 
+    .col2 .box h4{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+    .featured-content .img-box img{
+        width: 85px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .featured-content .img-box{
+        padding: 5px;
+    }
+    .featured-content .img-box img{
+        width: 80px;
+    }
+    #footwear .footwear-content{
+        flex-direction: column;
+    }
+    .content-box{
+        margin-top: 20px;
+    }
+    .content-box img{
+        width: 350px;
+        height: 400px;
+        object-fit: contain;
+    }
+    .posters{
+        flex-direction: column;
+       }
+    .posters .poster img{
+        width: 400px;
+        height: 400px;
+    }
+    footer{
+        background-color: #222;
+        color: #fff;
+        padding: 15px;
+    }
+    
+    .row .col h3{
+        font-size: 15px;
+    }
+    .social-icons i{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .box h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #logo{
+        width: 25px;
+    }
+    #payment{
+        width: 200px;
+
+    }
+    #flag{
+        width: 50px;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row2 .col2{
+        margin-bottom: 15px;
+    }
+    .row2 .col2 .box{
+        width: 150px;
+        padding: 0 10px;
+        border: 1px solid #bbb;
+        border-radius: 15px;
+        text-align: center;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+    } 
+    .col2 .box h4{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+    .featured-content .img-box img{
+        width: 85px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    header{
+        justify-content: space-between;
+    }
+    .right{
+        width: 70%;
+        
+    }
+    #puma-logo{
+        position: relative;
+        right: 20%;
+    }
+    .right .search-container{
+        width: 100px;
+        padding: 5px;
+    }
+    .search-container input{
+        background-color: transparent;
+        width: 100px;
+        outline: 0;
+        border: 0;
+        color: #fff;
+        padding: 0 5px;
+        cursor: pointer;
+    }
+    .search-container .icons i{
+        font-size: 10px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .right .icons{
+        margin: 5px 0 0 30px;
+    }
+    .icons i{
+        font-size: 20px;
+        padding: 8px;
+        cursor: pointer;
+    }
+
+    #featured-box h1,
+    #footwear .footwear-header h2{
+        font-size: 30px;
+    }
+    .featured-content{
+        flex-direction: column;
+    }
+    .featured-content .img-box{
+        padding: 5px;
+    }
+    #footwear .footwear-content{
+        flex-direction: column;
+    }
+    .content-box{
+        margin-top: 20px;
+    }
+    .content-box img{
+        width: 200px;
+        height: 250px;
+        object-fit: contain;
+    }
+    .posters .poster img{
+        width: 300px;
+        height: 300px;
+    }
+    footer{
+        background-color: #222;
+        color: #fff;
+        padding: 15px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    
+    .row .col h3{
+        font-size: 15px;
+    }
+    .social-icons i{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    
+    .box h4{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    #logo{
+        width: 25px;
+    }
+    #payment{
+        width: 200px;
+
+    }
+    #flag{
+        width: 50px;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .row2 .col2{
+        margin-bottom: 15px;
+    }
+    .row2 .col2 .box{
+        width: 150px;
+        padding: 0 10px;
+        border: 1px solid #bbb;
+        border-radius: 15px;
+        text-align: center;
+        cursor: pointer;
+        margin-right: 20px;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+    } 
+    .col2 .box h4{
+        padding: 10px;
+        font-size: 18px;
+    }
+    .col2 p{
+        font-size: 12px;
+    }
+    .featured-content .img-box img{
+        width: 85px;
+    }
+    .posters{
+        flex-direction: column;
+     }
+}
